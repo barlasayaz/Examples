@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script src="jquery.js" type="text/javascript"> </script>
+        <script src="grid.js" type="text/javascript"> </script>
+        <script type="text/javascript">
+            $(function() {  
+                $("#container").grid(
+                    {
+                        "data" : [{"CustomerName":"Ahmet","Id":34343434434,"Phone":"05359883880","Birthplace":"Ankara"}],
+                        "columns": ["CustomerName","Id","Phone","Birthplace"]
+                    }
+                );
+             });
+        </script>
+    </body>
+</html>
