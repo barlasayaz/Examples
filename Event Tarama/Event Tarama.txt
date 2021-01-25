@@ -1,5 +1,0 @@
-Bu requirement'ta isteneni yazılımsal olarak nasıl yaparız emin değilim o yüzden düşüncelerimi belirteceğim sadece.
-Sabit sayı verilmesi basitlik gereği olsa gerek, gerçek hayatta sabit sayı olmayacağı için gidip tablodan okumadan toplam kayıt adedini bile bilemeyiz ki tablodaki kayıt sayısı da sürekli değişebilir,sabit kalmaz. Zaten bu bilinmezlikten ve anında tepki verme gerekliliğinden kaynaklı olarak observer pattern ve asenkron kullanma gereği doğmakta diye düşünüyorum.
-Burada consumer'ın elinde sanki 400 event'ın hepsi aynı anda varmış gibi kurgulanmış, bu da basitlik gereği yapılmış olmalı ama açıkçası biraz da kafa karıştırıyor aynı zamanda. Gerçek hayat koşulları çok daha anlaşılır oluyor.
-
-Burada kritik konu Complex Event Processing olmakta gördüğüm kadarıyla ama kısıtlı zamanda konuda ciddi kafa yormayan bir kişinin bir algoritma tasarlaması da mümkün değil, o yüzden burada bırakmak durumundayım.
